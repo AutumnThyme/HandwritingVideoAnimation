@@ -9,12 +9,12 @@
 This project may be terrible for your use case. Please understand that this was done out of spite since I realized there were simpler solutions for if I just wanted animated text of any font on screen. https://www.calligrapher.ai/ worked for my use case and is better than this, but if you have a specific font you wish to use, this project may be worth it. There are configurations that need to be handled internally through editing the raidus for each path if your font is big. A full UI is probably impossible since I am using OpenCV. I may update this in the future if I feel like it. gl;hf
 
 Controls:
+
 q - quit
 
 e - render (Your image will stay on screen and may appear to not respond, this is normal as OpenCV's VideoWriter can be slow some times)
 
-spacebar - Split (By default, key points are lerp'd between at a speed ralative to the difference in angle between the last pair of keyframes (this allows us to simulate pen sliding speed). Hitting spacebar will prevent the next point from being connected)
- - Keypoint connectivity is visualized by a line going from one point to the next.
+spacebar - Split (By default, key points are lerp'd between at a speed ralative to the difference in angle between the last pair of keyframes (this allows us to simulate pen sliding speed). Hitting spacebar will prevent the next point from being connected) Keypoint connectivity is visualized by a line going from one point to the next.
  
 left click - Insert a keypoint
 
