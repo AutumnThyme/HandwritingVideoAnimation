@@ -22,9 +22,9 @@ right click - Revert last step
 
 ISSUES:
 
-Currently, the way we get a background is by selectin the top left corner pixel's BGR value. This means if you center your text at the top right corner, it may use the font color.
+ * Currently, the way we get a background is by selecting the top left corner pixel's BGR value. This means if you center your text at the top right corner, it may use the font color.
 
-Currently, this application is slow (5-10 seconds to render the text "Insert Text Here") I have yet to test it on longer cases, but for paragraphs I imagine it would take forever to do anyways.
+ * Currently, this application is slow (5-10 seconds to render the text "Insert Text Here") I have yet to test it on longer cases, but for paragraphs I imagine it would take forever to do anyways.
 
-Currently, to use this, you must have your image in the same directory as the script and have it named FirstPart.png I will change this later, I just want to finish the project this application was made for first (a video project) before I actually finish or polish this project.
+ * Currently, to use this, you must have your image in the same directory as the script and have it named FirstPart.png I will change this later, I just want to finish the project this application was made for first (a video project) before I actually finish or polish this project.
 
