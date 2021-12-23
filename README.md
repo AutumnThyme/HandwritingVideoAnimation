@@ -10,10 +10,14 @@ This project may be terrible for your use case. Please understand that this was 
 
 Controls:
 q - quit
+
 e - render (Your image will stay on screen and may appear to not respond, this is normal as OpenCV's VideoWriter can be slow some times)
+
 spacebar - Split (By default, key points are lerp'd between at a speed ralative to the difference in angle between the last pair of keyframes (this allows us to simulate pen sliding speed). Hitting spacebar will prevent the next point from being connected)
  - Keypoint connectivity is visualized by a line going from one point to the next.
+ 
 left click - Insert a keypoint
+
 right click - Revert last step
 
 ISSUES:
